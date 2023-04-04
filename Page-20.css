@@ -1,0 +1,129 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 1302px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 256px;
+  height: 500px;
+  margin: 69px 175px 0 auto;
+}
+
+.u-section-1 .u-image-2 {
+  width: 214px;
+  height: 545px;
+  margin: -514px auto 0 194px;
+}
+
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 59px 237px 0 auto;
+  padding: 10px 62px 10px 61px;
+}
+
+.u-section-1 .u-btn-2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: -42px auto 60px 255px;
+  padding: 10px 76px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    margin-top: 100px;
+    margin-right: 147px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -545px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 51px;
+    margin-right: 190px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 220px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1318px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 135px;
+    margin-right: 74px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -522px;
+    margin-left: 102px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 90px;
+    margin-right: 136px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 102px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1392px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 174px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-left: 40px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 78px;
+    margin-right: 40px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 85px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1419px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 145px;
+    height: 356px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 130px;
+    height: 502px;
+    margin-top: -401px;
+    margin-left: 20px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 121px;
+    margin-right: 24px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: -24px;
+  }
+}

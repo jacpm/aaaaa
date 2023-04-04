@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shared Counter Example</title>
+</head>
+<body>
+    <h1>Shared Counter Example</h1>
+    <p>Counter: <span id="counter"></span></p>
+    <button id="button1">Click me</button>
+    <script>
+        // Get the counter element
+        var counter = document.getElementById("counter");
+        // Set the initial counter value to 0
+        var count = 0;
+        // Add a click event listener to the button
+        button1.addEventListener("click", function() {
+            // Increment the counter value by 1
+            count++;
+            // Update the counter element with the new value
+            counter.innerHTML = count;
+            // Send a request to the server to update the shared counter
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "update-counter.php?count=" + count);
+            xhr.send();
+            // Redirect the user to Page-11.html
+            window.location.href = "Page-11.html";
+        });
+        // Get the current counter value from the server
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                // Set the counter value to the value received from the server
+                count = parseInt(this.responseText);
+                counter.innerHTML = count;
+            }
+        };
+        xhr.open("GET", "get-counter.php");
+        xhr.send();
+    </script>
+</body>
+</html>
